@@ -1,12 +1,12 @@
-var entryFile = "main.js"
-var webpack = require("webpack")
-if (process.env.webpackMode=="test") {
-    entryFile = "test.js"
+var entryFile = 'main.js'
+var webpack = require('webpack')
+if (process.env.webpackMode=='test') {
+    entryFile = 'test.js'
 }
 
 module.exports = {
     entry: {
-      app: "./src/"+entryFile,
+      app: './src/'+entryFile,
       vendor: [
         'isomorphic-fetch',
         'react',
@@ -18,15 +18,15 @@ module.exports = {
       ],
     },
     output: {
-        path: __dirname+"/dist",
-        filename: "bundle.js"
+        path: __dirname+'/dist',
+        filename: 'bundle.js'
     },
     plugins: [
-        new webpack.optimize.CommonsChunkPlugin(/* chunkName= */"vendor", /* filename= */"vendor.bundle.js")
+        new webpack.optimize.CommonsChunkPlugin(/* chunkName= */'vendor', /* filename= */'vendor.bundle.js')
     ],
     module: {
         loaders: [
-            {test: /\.js$/, exclude: /node_modules/, loader: "babel-loader", query: { presets:['es2015','react'] }}
+            {test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader', query: { presets:['es2015','react'] }}
         ]
     }
 };

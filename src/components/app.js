@@ -14,7 +14,7 @@ class App extends Component {
     return (
       <div>
         <h1>{this.props.message}</h1>
-        <input type='text' ref='input' />
+        <input type="text" ref="input" />
         <button onClick={e => this.handleClick(e)}>Click Me!</button>
       </div>
     )

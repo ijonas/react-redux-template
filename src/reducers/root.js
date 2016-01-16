@@ -2,7 +2,7 @@ import { createStore } from 'redux'
 import * as types from '../types'
 
 export const initialState = {
-  message: "Hello React+Redux Coder!",
+  message: 'Hello React+Redux Coder!',
 }
 
 export const rootReducer = (state = initialState, action) => {
