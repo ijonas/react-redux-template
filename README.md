@@ -64,6 +64,7 @@ I'd still like to add the following features to the template:
 * ESLint
 * possibly TypeScript
 * Mocha tests
+* Redux tooling (time travel etc.)
 
 ## Feedback & Contributions
 
