@@ -21,7 +21,7 @@ My intention is to have a ready-built harness to build apps with. This harness i
 with no opinions on server-side tech or isometric JavaScript apps.
 
 > Crafting your own JavaScript toolchain is like crafting your own lightsaber.
-> You should probably just use your dads.
+> You should probably just use your dad's...
 >
 > -- <Cite>Benjamin Franklin</Cite>
 
