@@ -15,6 +15,7 @@ Out-of-the-box supported technologies include:
 * Redux
 * Vendored dependencies
 * ESLint
+* Mocha/expect.js tests
 
 My intention is to have a ready-built harness to build apps with. This harness is wholy focused on a client-side app,
 with no opinions on server-side tech or isometric JavaScript apps.
@@ -88,7 +89,6 @@ both reloading when you make a code change.
 I'd still like to add the following features to the template:
 
 * possibly TypeScript
-* Mocha tests
 * Redux tooling (time travel etc.)
 
 ## Feedback & Contributions
