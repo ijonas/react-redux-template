@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "development@emergeadapt.com",
+  "author": "ijonas@emergeadapt.com",
   "license": "ISC",
 
   "dependencies": {
