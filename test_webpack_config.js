@@ -2,7 +2,7 @@ var webpack = require('webpack')
 
 module.exports = {
     entry: {
-      app: './src/main.js',
+      app: './test/test.js',
       vendor: [
         'isomorphic-fetch',
         'react',

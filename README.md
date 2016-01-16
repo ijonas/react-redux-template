@@ -39,7 +39,7 @@ Install the project dependencies via
 
 Launch the webpack development server via
 
-    webpack-dev-server --progress --colors --config ./webpack_config.js
+    npm start
 
 Access your app at [http://localhost:8080/webpack-dev-server/](http://localhost:8080/webpack-dev-server/)
 
@@ -68,6 +68,20 @@ can run ESLint separately:
     npm run lint
 
 This [blog post](http://survivejs.com/webpack_react/linting_in_webpack/) has some great further suggestions on customising ESLint.
+
+## Writing Tests
+
+I've settled on Mocha and expect.js for the test framework. I haven't managed to figure out how to get Webpack to spit out two separate "entry points", i.e. a bundle.js and a test_bundle.js. So as a workaround I'm using a separate webpack_config.js -
+test_webpack_config.js - to generate a bundle.js containing the app's tests.
+
+You can run the test server using
+
+     npm test
+
+And access the Mocha Test Runner at [http://localhost:8081/webpack-dev-server/test.html](http://localhost:8081/webpack-dev-server/test.html)
+
+The upside from this config is that you can have two browser tabs open, one with your app and the other with your test runner,
+both reloading when you make a code change.
 
 ## Todo
 
