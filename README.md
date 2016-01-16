@@ -67,6 +67,7 @@ can run ESLint separately:
 
     npm run lint
 
+This [blog post](http://survivejs.com/webpack_react/linting_in_webpack/) has some great further suggestions on customising ESLint.
 
 ## Todo
 
