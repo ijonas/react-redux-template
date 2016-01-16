@@ -18,7 +18,7 @@ Out-of-the-box supported technologies include:
 My intention is to have a ready-built harness to build apps with. This harness is wholy focused on a client-side app,
 with no opinions on server-side tech or isometric JavaScript apps.
 
-> Crafting your own #JavaScript toolchain is like crafting your own lightsaber.
+> Crafting your own JavaScript toolchain is like crafting your own lightsaber.
 > You should probably just use your dads.
 >
 > -- <Cite>Benjamin Franklin</Cite>
@@ -42,7 +42,7 @@ Launch the webpack development server via
 
 Access your app at
 
-    [http://localhost:8080/webpack-dev-server/](http://localhost:8080/webpack-dev-server/)
+http://localhost:8080/webpack-dev-server/](http://localhost:8080/webpack-dev-server/)
 
 # Running webpack from the command line
 
