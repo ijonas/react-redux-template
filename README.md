@@ -44,7 +44,7 @@ Launch the webpack development server via
 
 Access your app at [http://localhost:8080/webpack-dev-server/](http://localhost:8080/webpack-dev-server/)
 
-# Running webpack from the command line
+## Running webpack from the command line
 
     webpack --config ./webpack_config.js
 
@@ -61,7 +61,7 @@ and use relative paths to import them. Webpack will provide good error messages 
 
 This project ships with a vanilla ESLint setup. You can customise ESLint to suit your needs by creating and editing the following file
 
-./.eslintrc
+    ./.eslintrc
 
 ESLint is included in the Webpack setup of this project, so as Webpack does its thing it'll run your code through ESLint. You
 can run ESLint separately:
