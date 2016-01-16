@@ -40,9 +40,7 @@ Launch the webpack development server via
 
     webpack-dev-server --progress --colors --config ./webpack_config.js
 
-Access your app at
-
-http://localhost:8080/webpack-dev-server/](http://localhost:8080/webpack-dev-server/)
+Access your app at [http://localhost:8080/webpack-dev-server/](http://localhost:8080/webpack-dev-server/)
 
 # Running webpack from the command line
 
