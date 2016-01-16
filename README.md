@@ -5,7 +5,7 @@ A sample React+Redux project template.
 Don't you love JavaScript tooling... you spend a day setting up your project, before you've written you're first line
 of valuable code. We'll I'm sick of it... hence this Github repo.
 
-Feel free to use this as a "starter-for-ten" project template. I'm using to play around with several different
+Feel free to use this as a "starter-for-ten" project template. I'm using it to play around with several different
 little side projects that involve React+Redux-based clients.
 
 Out-of-the-box supported technologies include:
