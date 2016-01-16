@@ -14,6 +14,7 @@ Out-of-the-box supported technologies include:
 * JSX Compilation
 * Redux
 * Vendored dependencies
+* ESLint
 
 My intention is to have a ready-built harness to build apps with. This harness is wholy focused on a client-side app,
 with no opinions on server-side tech or isometric JavaScript apps.
@@ -55,11 +56,22 @@ and use relative paths to import them. Webpack will provide good error messages 
 
 *dist* - Will contain your bundle.js and vendor.bundle.js files if you run webpack from the command line (see above).
 
+## Linting with ESLint
+
+This project ships with a vanilla ESLint setup. You can customise ESLint to suit your needs by creating and editing the following file
+
+./.eslintrc
+
+ESLint is included in the Webpack setup of this project, so as Webpack does its thing it'll run your code through ESLint. You
+can run ESLint separately:
+
+    npm run lint
+
+
 ## Todo
 
 I'd still like to add the following features to the template:
 
-* ESLint
 * possibly TypeScript
 * Mocha tests
 * Redux tooling (time travel etc.)

@@ -26,7 +26,8 @@ module.exports = {
     ],
     module: {
         loaders: [
-            {test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader', query: { presets:['es2015','react'] }}
+            {test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader', query: { presets:['es2015','react'] }},
+            {test: /\.js$/, loader: "eslint-loader", exclude: /node_modules/}
         ]
     }
 };

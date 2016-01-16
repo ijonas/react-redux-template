@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint . --ext .js --ext .jsx"
+    "lint": "eslint . --ext .js --ext .jsx",
+    "start": "webpack-dev-server --colors --config ./webpack_config.js"
   },
   "author": "ijonas@emergeadapt.com",
   "license": "ISC",
